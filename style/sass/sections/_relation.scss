@@ -1,0 +1,54 @@
+.relation-section{
+  background-color: $dark-gray2;
+}
+.parent-form{
+  padding: 30px 0 30px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 10px;
+  &--form-twitter{
+    flex: 1 1 100%;
+    color: #fff;
+    text-align: center;
+    h2{
+      display: flex;
+      align-items: baseline;
+      justify-content: center;
+    }
+    &--envelope{
+      content:"\f0e0" ;
+      padding-right: 20px;
+      font-family:"Font Awesome 6 Free" ;
+      font-weight:900;
+
+    }
+    &--twiter{
+      content:"\f099" ;
+      padding-right: 20px;
+      font-family:$icon-brand-font-family ;
+      font-weight:$icon-font-weight;
+    }
+  }
+
+}
+
+
+
+
+
+.send{
+  background-color:$yellow ;
+  width: 100px;
+  border: 2px solid $yellow;
+  border-radius: 3px;
+  color: $black;
+  transform: translate(102px);
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+
+

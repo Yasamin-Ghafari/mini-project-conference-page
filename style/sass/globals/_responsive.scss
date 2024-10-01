@@ -1,0 +1,66 @@
+@media (min-width: 576px){
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px){
+  .container {
+    max-width: 720px;
+  }
+  .speakers {
+    flex: 1 1 calc(40% - 10px);
+  }
+
+  .price{
+    flex: 1 1 calc(40% - 10px);
+
+  }
+
+  .parent-form--form-twitter{
+    flex: 1 1 calc(50% - 10px);
+  }
+  .send{
+    transform: translate(256px);
+
+  }
+  .parent-footer--item {
+    flex: 1 1 calc(40% - 10px);
+  }
+  .menu li {
+    display: inline-block;
+  }
+  .meetup{
+    flex: 1 1 calc(40% - 10px);
+
+  }
+  .meetup--img-2 {
+    width: 400px;
+  }
+  .possibilities-section--icons{
+    flex: 1 1 calc(40% - 10px);
+
+  }
+}
+@media (min-width: 992px){
+  .container {
+    max-width: 960px;
+  }
+  .speakers {
+    flex: 1 1 calc(25.333% - 10px);
+  }
+  .possibilities-section--icons{
+    flex: 1 1 calc(25.333% - 10px);
+
+  }
+
+}
+@media (min-width: 1200px){
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px){
+  .container {
+    max-width: 1320px;
+  }
+}

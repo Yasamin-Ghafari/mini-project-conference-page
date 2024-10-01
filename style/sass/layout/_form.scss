@@ -1,0 +1,20 @@
+.order-form label{
+  display: inline-block;
+  padding-right: 50px;
+}
+.form-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  label {
+    width: 40px;
+    margin-right: 10px;
+  }
+  input[type="text"],input[type="email"],textarea
+  {
+    width: 80%;
+    flex: 1;
+
+  }
+
+}

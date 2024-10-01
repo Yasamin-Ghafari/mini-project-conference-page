@@ -1,0 +1,23 @@
+.footer-section{
+  background-color: $dark-gray;
+
+}
+.parent-footer{
+  margin-top: -30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 10px;
+  /*column-gap: 80px;*/
+  &--item{
+    flex: 1 1 100%;
+  }
+}
+
+.footer-explain{
+  color: $primary-color;
+  &--link{
+    color: $light-blue;
+  }
+}

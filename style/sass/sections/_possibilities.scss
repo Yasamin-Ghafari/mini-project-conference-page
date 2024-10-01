@@ -1,0 +1,60 @@
+.possibilities-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 10px;
+  h2{
+    flex: 1 1 100%;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    justify-content: center;
+
+  }
+  &--icons{
+    flex: 1 1 100%;
+    text-align: center;
+    h3, p{
+      text-align: center;
+      color: #4b6584;
+    }
+    &--ticket {
+      content: "\f145";
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+
+    }
+
+    &--microphone{
+      content:"\f130" ;
+      font-family:"Font Awesome 6 Free" ;
+      font-weight:900;
+    }
+    &--globe{
+      content:"\f0ac" ;
+      font-family:"Font Awesome 6 Free" ;
+      font-weight:900;
+    }
+  }
+
+}
+
+
+
+
+
+/*.parent-possibilities{*/
+/*    display: flex;*/
+/*    gap: 100px;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.parent-speaker{*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: space-evenly;*/
+
+/*}*/

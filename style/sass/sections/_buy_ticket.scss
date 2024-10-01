@@ -1,0 +1,50 @@
+.buy-ticket-section {
+  background-color: $yellow;
+
+}
+.parent-price{
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 10px;
+  h2 {
+    flex: 1 1 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+  }
+}
+
+
+.price{
+  flex: 1 1 100%;
+  text-align: center;
+  &--money{
+    color: $tomato;
+    font-size: $price-money-font-size;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  &--head{
+    font-size: $price-head-font-size;
+  }
+  &--day{
+    font-size: $price-day-font-size;
+  }
+  &--btn {
+    color: $primary-color;
+    background-color: $tomato;
+    padding: 15px 10px;
+    border: 1px solid $tomato;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+}
